@@ -1,10 +1,5 @@
 //
-//  LTGLKViewBarrel.m
-//  OpenGLDemo
-//
-//  Created by liuzheng on 16/5/17.
-//  Copyright © 2016年 liuzheng. All rights reserved.
-//
+
 //#import "LTGLKView.h"
 #import "LTGLKViewBarrel.h"
 

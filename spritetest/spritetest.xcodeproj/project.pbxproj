@@ -557,7 +557,7 @@
 				INFOPLIST_FILE = spritetest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.tv.qie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kule.tv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9f8a7598-4a36-40cc-b91b-24d57213c0b1";
 				PROVISIONING_PROFILE_SPECIFIER = QIETVDevelopmentNEWNEW;
@@ -574,7 +574,7 @@
 				INFOPLIST_FILE = spritetest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.tv.qie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kule.tv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9f8a7598-4a36-40cc-b91b-24d57213c0b1";
 				PROVISIONING_PROFILE_SPECIFIER = QIETVDevelopmentNEWNEW;

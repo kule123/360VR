@@ -1,10 +1,5 @@
 //
-//  LTGLKView.m
-//  LeTVMobilePlayer
-//
-//  Created by zhang on 15/6/3.
-//  Copyright (c) 2015年 Kerberos Zhang. All rights reserved.
-//
+
 
 #import "LTGLKView.h"
 #import "LTGLKViewBarrel.h"

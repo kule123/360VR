@@ -1,7 +1,4 @@
-//
-//  ViewController.m
-//  spritetest
-//
+
 
 #import "ViewController.h"
 
@@ -27,42 +24,15 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    CGFloat rotation = 0.0;
-    if ([UIDevice currentDevice].orientation == UIDeviceOrientationLandscapeLeft) {
-        rotation = -M_PI_2;
-    }else {
-        //        if (self.lastOrentation == UIInterfaceOrientationLandscapeLeft) {
-        rotation = M_PI_2;
-        //        }
-    }
-//    self.view.backgroundColor = [UIColor blackColor];
-//    self.view.transform = CGAffineTransformMakeRotation(rotation);
-//
-//    _playerView1 = [[PlayerView1 alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.height, self.view.bounds.size.width)];
-//    _playerView1.backgroundColor = [UIColor clearColor];
-//    _playerView1.center  = CGPointMake(self.view.bounds.size.height/2, self.view.bounds.size.width/2);
-//    [self.view addSubview:_playerView1];
-//    _playerView2 = [[PlayerView1 alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.height/2, self.view.bounds.size.width)];
-//    _playerView2.backgroundColor = [UIColor clearColor];
-//    _playerView2.center  = CGPointMake(self.view.bounds.size.height*3/4, self.view.bounds.size.width/2);
-//    [self.view addSubview:_playerView2];
-//    self.glkVideoView = [[LTGLKView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.width)];
-//    self.glkVideoView.center = self.view.center;
-//    self.glkVideoView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-//    self.glkVideoView.LTGLKViewDelegate = self;
-//    [self.glkVideoView prepareGLKView];
-//    [self.view addSubview: self.glkVideoView];
-//    [self panoramaAddGLKViewGesture:self.view];
-//    self.panoramaOrentation = [UIDevice currentDevice].orientation;
-//    [self panoramaSetupGyroscope];
-    
     self.parentView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.height, self.view.bounds.size.width)];
     [self.view addSubview:self.parentView];
     
     NSBundle *bundle = [NSBundle mainBundle];
-    NSString *moviePath = [bundle pathForResource:@"miss" ofType:@"mp4"];
+    NSLog(@"___________________________------------给我找个片源地址——————————————______________________________________________________________________________________________________________________________________________________________________________--");
+    NSString *moviePath = [bundle pathForResource:@"URLPATH" ofType:@"mp4"];
     NSURL *movieURL = [NSURL fileURLWithPath:moviePath];
-    NSURL *sourceMovieURL = [NSURL URLWithString:@"http://220.181.117.131/205/32/1/letv-uts/14/ver_00_22-1049007645-avc-199959-aac-32008-376880-11338499-5381f77093ddab5fa6b201d0ac6a86b3-1465270743147.m3u8?crypt=81aa7f2e214&b=240&nlh=4096&nlt=60&bf=72&p2p=1&video_type=mp4&termid=2&tss=ios&platid=3&splatid=341&its=0&qos=3&fcheck=0&mltag=4701&proxy=611247386,1778575169,1778917272&uid=1105892494&keyitem=GOw_33YJAAbXYE-cnQwpfLlv_b2zAkYctFVqe5bsXQpaGNn3T1-vhw..&ntm=1467870600&nkey=ce5416cb035d0ffb3083b18f7aef2b17&nkey2=c980c7a3d77a31273698c90143e88d76&geo=CN-1-9-666&appid=4000&cde=1023&cdeid=01aa64fd39ffb47a0de9c77a577dc0be&cdekey=fbb798ae6f858f0fd7e4cda355e7aabb&cdetm=1467859610&cvid=417001402798&dname=mobile&hwtype=iphone&iscpn=&key=955230a5962e6dd8ac61298c59ff0dbc&m3v=3&mmsid=58404825&ostype=macos&p1=0&p2=00&payff=0&pcode=010210000&pid=10022718&playid=0&sign=mb&tag=mobile&tm=1467859310&uinfo=AAAAAAAAAAB4lylV6ru-7PP5s04mvFNswabIFcmWgDSr7nIjBWEDfQ==&uuid=01563B05-AB6A-4880-9FB6-168DC34EAF89_1467859310658&version=6.7&vid=25697432&vtype=161&errc=0&gn=820&vrtmcd=102&buss=4701&cips=10.58.92.51"];
+    
+    NSURL *sourceMovieURL = [NSURL URLWithString:@"you know URL"];
     
     AVAsset *movieAsset    = [AVURLAsset URLAssetWithURL:movieURL options:nil];
     AVPlayerItem *firstVideoItem = [AVPlayerItem playerItemWithURL:movieURL];

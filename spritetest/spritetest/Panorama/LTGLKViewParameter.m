@@ -1,10 +1,3 @@
-//
-//  LTGLKViewParameter.m
-//  LeTVOpenSource
-//
-//  Created by zhang on 16/6/7.
-//  Copyright © 2016年 letv. All rights reserved.
-//
 
 #import "LTGLKViewParameter.h"
 

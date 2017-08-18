@@ -1,24 +1,4 @@
-/*
-created with obj2opengl.pl
 
-source file    : /Users/kirill/Desktop/Sphere.obj
-vertices       : 2273
-faces          : 4416
-normals        : 1927
-texture coords : 2145
-
-
-// include generated arrays
-#import "/Users/kirill/Desktop/Sphere.h"
-
-// set input data to arrays
-glVertexPointer(3, GL_FLOAT, 0, SphereVerts);
-glNormalPointer(GL_FLOAT, 0, SphereNormals);
-glTexCoordPointer(2, GL_FLOAT, 0, SphereTexCoords);
-
-// draw data
-glDrawArrays(GL_TRIANGLES, 0, SphereNumVerts);
-*/
 
 unsigned int SphereNumVerts = 13248;
 

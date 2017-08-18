@@ -1,10 +1,4 @@
-//
-//  PlayerCore.m
-//  LetvPlayerCoreDemo
-//
-//  Created by cfxiao on 15/3/27.
-//  Copyright (c) 2015年 Letv. All rights reserved.
-//
+
 
 #import "LTPlayerCore.h"
 #import "LTPlayerItem.h"

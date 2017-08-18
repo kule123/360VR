@@ -1,10 +1,4 @@
-//
-//  LTGLKViewParameter.h
-//  LeTVOpenSource
-//
-//  Created by zhang on 16/6/7.
-//  Copyright © 2016年 letv. All rights reserved.
-//
+
 
 #import <Foundation/Foundation.h>
 #import <GLKit/GLKit.h>

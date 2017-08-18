@@ -1,10 +1,4 @@
-//
-//  spritetestUITests.m
-//  spritetestUITests
-//
-//  Created by letv on 15/11/18.
-//  Copyright © 2015年 1223. All rights reserved.
-//
+
 
 #import <XCTest/XCTest.h>
 
