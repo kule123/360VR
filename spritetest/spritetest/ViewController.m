@@ -56,7 +56,6 @@
     [self panoramaAddGLKViewGesture:self.glkVideoView];
 
     if ([UIApplication sharedApplication].applicationState != UIApplicationStateActive) {
-        // fix bug: http://jira.letv.cn/browse/IPHONEHD-7765
         self.glkVideoView.parameter.isPause = YES;
     }
     [self panoramaSetupGyroscope];
